@@ -1,0 +1,33 @@
+INTERVIEWER: Tell me about the payments microservice redesign you mentioned on your resume.
+
+CANDIDATE: Sure. So actually the redesign was mostly driven by our tech lead — I was one of
+three engineers on it. My specific piece was rewriting the retry/idempotency logic for failed
+payment webhooks. I used a Redis-backed idempotency key store so we wouldn't double-charge
+customers on retries.
+
+INTERVIEWER: You said on your resume you "single-handedly architected" the migration to
+microservices. Can you walk me through the architecture decisions you made?
+
+CANDIDATE: Honestly "single-handedly" is probably too strong a word, my manager and I worked
+on the high-level design together in a few workshops, and then I implemented the messaging
+layer using Kafka. I picked Kafka over RabbitMQ mainly because we already had ops experience
+with Kafka on the data team, so it reduced operational risk.
+
+INTERVIEWER: How do you approach mentoring junior engineers?
+
+CANDIDATE: I try to do a lot of pairing rather than just code review comments. For example
+one junior engineer on my team was struggling with async/await patterns in Python, so we
+spent two sessions pairing on a real bug in our webhook consumer until it clicked for him.
+
+INTERVIEWER: Can you describe a time you disagreed with a teammate?
+
+CANDIDATE: Yeah, during the microservices migration a teammate wanted to use synchronous
+HTTP calls between services for simplicity. I pushed back because I was worried about
+cascading failures under load. We eventually did a small load test together which showed
+the synchronous approach falling over at about 3x expected traffic, and he agreed to switch
+to the async Kafka approach.
+
+INTERVIEWER: Why do you want to leave your current role?
+
+CANDIDATE: I've grown a lot at Zenith but I'm looking for a team with a stronger data
+engineering culture, since I want to grow more in that direction.

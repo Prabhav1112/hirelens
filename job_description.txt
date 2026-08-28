@@ -1,0 +1,5 @@
+Role: Senior Backend Engineer
+We're looking for a backend engineer with 3-6 years of experience to own core services in
+our platform team. Must have strong Python skills, experience with distributed systems and
+message queues, and the ability to mentor junior engineers. Bonus: experience with payments
+systems and event-driven architectures.

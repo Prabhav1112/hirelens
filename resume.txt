@@ -1,0 +1,26 @@
+RAVI KUMAR
+Software Engineer | ravi.kumar@example.com | +91-98765-43210
+
+SUMMARY
+Backend engineer with 4 years of experience building scalable APIs and distributed systems.
+Passionate about mentoring junior engineers and driving technical excellence.
+
+SKILLS
+Python, Django, FastAPI, PostgreSQL, Redis, Docker, Kubernetes, AWS, System Design, Microservices
+
+WORK EXPERIENCE
+Senior Backend Engineer — Zenith Systems (2022 - Present)
+- Led the redesign of the payments microservice, reducing latency by 40%.
+- Owned the migration from a monolith to microservices architecture, single-handedly
+  architecting the new event-driven system used by 12 downstream teams.
+- Mentored 3 junior engineers.
+
+Backend Engineer — Nimbus Cloud (2020 - 2022)
+- Built REST APIs serving 2M+ daily requests using Django REST Framework.
+- Implemented caching layer with Redis, cutting average response time by 55%.
+
+EDUCATION
+B.Tech in Computer Science, IIT Roorkee (2016 - 2020)
+
+PROJECTS
+- Open-source contributor to a popular Python ORM library (500+ GitHub stars).
